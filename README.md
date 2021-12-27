@@ -14,4 +14,4 @@
 
 ### 공부 자료
 
-- `https://ko.javascript.info/`
+- https://ko.javascript.info/
