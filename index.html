@@ -8,16 +8,10 @@
   </head>
   <body>
     <script>
-      const myValue = "100";
-
-      switch (myValue) {
-        case 100:
-          console.log("숫자 타입의 100입니다.");
-          break;
-        default:
-          console.log("숫자 타입의 100이 아닙니다.");
-          break;
-      }
+      console.log(encodeURI("http://example.com/귀여운 고양이 페이지.html"));
+      console.log(
+        encodeURIComponent("http://example.com/귀여운 고양이 페이지.html")
+      );
     </script>
   </body>
 </html>
